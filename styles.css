@@ -12,7 +12,7 @@ body {
 }
 
 .nav {
-    background-color: #007bb6;
+    background-color: #0072e9;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -92,7 +92,9 @@ body {
     width: 40%;
     margin-left: 20px;
 }
-
+.products {
+    padding: 40px;
+}
 .product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -109,11 +111,13 @@ body {
 
 .product-card img {
     width: 100%;
-    height: 150px;
+    height: 350px;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
 }
-
+.testimonials {
+    padding: 40px;
+}
 .testimonial-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
